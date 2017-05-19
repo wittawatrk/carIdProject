@@ -18,6 +18,7 @@ public:
     explicit  my_label(QWidget *parent=0);
     void mousePressEvent(QMouseEvent *ev);
     vector<Point2f> src;
+     Point2f a[4];
 signals :
     void click();
 };
